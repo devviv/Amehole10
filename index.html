@@ -1,477 +1,1000 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>PortFolio AWOMAKOU Amèholé Vivien, Développeur Laravel</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-  <script async src="https://tally.so/widgets/embed.js"></script>
-  <!-- Favicons -->
-  <!-- <link href="img/Me.png" rel="icon">
-  <link href="img/Me.png" rel="apple-touch-icon"> -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description" />
+    <meta name="author" content="Your name" />
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta property="og:title" content="" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- to have large image post format in Twitter -->
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/add.css">
-  <meta name="google-site-verification" content="OPtxBH2Cm4iIbvDY7lMW05w2AcLQCYpQnhVN1YUZrsY" />
-  <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-</head>
+    <!-- Webpage Title -->
+    <title>AWOMAKOU Amèholé Vivien & Dévéloppeur Web</title>
 
-<body id="page-top">
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">PortFolio</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#Acceuil">Acceuil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#APropos">A propos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#Realisations">Réalisations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contactez-moi">Contactez-moi</a>
-          </li>
-        </ul>
+    <!-- Vendor CSS Files -->
+    <!-- <link href="vendor/aos/aos.css" rel="stylesheet"> -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/logo/favicon-32x32.png" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"
+          ><img src="images/logo/logo.png" alt="logo"
+        /></a>
+
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
+
+        <button
+          class="navbar-toggler p-0 border-0"
+          type="button"
+          data-toggle="offcanvas"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="navbar-collapse offcanvas-collapse"
+          id="navbarsExampleDefault"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#header"
+                >Acceuil <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#about">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#services">Services</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item page-scroll" href="project.html">Project Details</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+                        </div>
+                    </li> -->
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <span class="nav-item social-icons">
+            <span class="fa-stack">
+              <a href="https://www.linkedin.com/in/amehole-vivien-awomakou/">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https://github.com/devviv/">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+        <!-- end of navbar-collapse -->
       </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
+      <!-- end of container -->
+    </nav>
+    <!-- end of navbar -->
+    <!-- end of navigation -->
 
-  <!--/ Intro Skew Star /-->
-  <div id="Acceuil" class="intro route bg-image" style="background-image: url(img/bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">AWOMAKOU Amèholé Vivien</h1>
-          <p class="intro-subtitle"><span class="text-slider-items"> Développeur  web, Développeur Backend Laravel, Génie Logiciel</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
-
-  <section id="APropos" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/Vivien.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Nom: </span> <span>AWOMAKOU Amèholé Vivien</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Developpeur</span></p>
-                      <p><span class="title-s">Email: </span> <span>aamehole@gmail.com</span></p>
-                      <p><span class="title-s">Téléphone: </span> <span> (+228) 79626998</span></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill-mf">
-                  <p class="title-s">Compétences</p>
-                  <span>LARAVEL</span> <span class="pull-right">72%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>FILAMENT PHP</span> <span class="pull-right">40%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>BOOTSTRAP</span> <span class="pull-right">80%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>C</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>PYTHON</span> <span class="pull-right">53%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      A Propos de moi
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    Etudiant en 3ème année de Licence en Informatique spécialité Génie Logiciel à l'Ecole Polytechnique de Lomé, j'ai obtenu mon BAC2 série C4 en 2021.
-                  </p>
-                  <p class="lead">
-                    Je suis Développeur Web, spécialisé en Backend.
-                  </p>
-                  <p class="lead">
-                    Je suis passionné par l'intélligence Artificielle et la Cybersécurité qui constituera mon parcours après ma licence.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--/ Section Services Star /-->
-  <section id="services" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Services
-            </h3>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <!-- <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Design Web</h2>
-              <p class="s-description text-center">
-                Je fais de design des sites web pour vous faire remarque. Je creé de très bon design.
-              </p>
-            </div>
-          </div>
-        </div> -->
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Developpement web</h2>
-              <p class="s-description text-center">
-                Je vous aide à concrétiser votre rêve.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-desktop"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Développement d'api</h2>
-              <p class="s-description text-center">
-                Développement d'api avec laravel
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- / Section Services End / -->
-
-  <!-- / Section Portfolio Star / -->
-  <section id="Realisations" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Réalisations
-            </h3>
-            <p class="subtitle-a">
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/YouthTrek1.png" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/YouthTrek1.png" alt="" class="img-fluid w-100 h-75">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">YouthTrek</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Site</span> / <span class="w-date">Octobre 2023</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="https://devviv.github.io/YouthTrek/" target="_blank" class="btn btn-primary m-1">Visitez</a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/portfolio.png" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/portfolio.png" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Portfolio</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Portfolio</span> / <span class="w-date">28 Avril 2023</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <!-- <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-3.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Mavrito Lana Dere</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div> -->
-        <!-- <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-4.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Bindo Laro Cado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div> -->
-        <!-- <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-5.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Lena Mado</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div> -->
-        <!-- <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-6.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Studio Big Bang</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div> -->
-        
-      </div>
-    </div>
-  </section>
-  <!--/ Section Portfolio End / -->
-
-  <!--/ Section Testimonials Star /-->
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contactez-moi" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Prendre un rendez-vous!
-                    </h5>
-                    <button class="btn" data-tally-open="wL98kz" data-tally-emoji-text="👋" data-tally-emoji-animation="wave">Cliquez ici pour me contacter
-                    </button>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      Je suis là pour vos différents travaux. N'hésitez surtout pas à me contacter. Je suis disponible tous les jours ouvrable 24h/24h.
-                      Je suis également disponible sur les réseaux sociaux.
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> Boulevard de la Kara Adewi Lomé, TOGO</li>
-                      <li><span class="ion-ios-telephone"></span>(+228) 79626998</li>
-                      <li><span class="ion-email"></span> aamehole@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <!-- <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li> -->
-                      <li><a href="https://www.linkedin.com/in/amehole-vivien-awomakou/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                      <li><a href="https://api.whatsapp.com/send?phone=22879626998
-                        "><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
+    <!-- Header -->
+    <header id="header" class="header">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>Amehole</strong>. Tous droits réservés</p>
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
-                <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h1 class="h1-large">
+                J'adore le Développement Backend.
+              </h1>
+              <a class="btn-solid-lg page-scroll" href="#about">Decouverte</a>
+              <a class="btn-outline-lg page-scroll" href="#contact"
+                ><i class="fas fa-user"></i>Contactez moi</a
+              >
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </header>
+    <!-- end of header -->
+    <!-- end of header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>A propos</h2>
+          <p>
+            Passionné par Laravel, je suis déterminé à mettre en pratique mes
+            compétences techniques et ma créativité pour créer des solutions
+            innovantes et performantes.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="images/Vivien.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Web Developer.</h3>
+            <p class="fst-italic">
+              Passionné par Laravel, je suis déterminé à mettre en pratique mes
+              compétences techniques et ma créativité pour créer des solutions
+              innovantes et performantes.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Naissance:</strong> <span>10 Mars 2003</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>SiteWeb:</strong> <span>www.example.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Téléphone:</strong> <span>+228 79 62 69 98</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Ville:</strong>
+                    <span>Lomé, TOGO</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>20</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong> <span>Licence (En cours)</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>aamehole@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Freelance:</strong> <span>Disponible</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              <!-- Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Compétences informatiques</h2>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">LARAVEL<i class="val">72%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="52"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">FILAMENT<i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="40"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">DJANGO<i class="val">20%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="20"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">BOOTSTRAP<i class="val">94%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="94"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML<i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">CSS<i class="val">78%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="78"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">JAVASCRIPT <i class="val">45%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="45"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CANVA <i class="val">56%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="56"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">GIT & GITHUB <i class="val">43%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="43"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+    </section>
+    <!-- End Skills Section -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Résume</h2>
+          <p>
+            Etudiant en 3ème année de Licence en Informatique spécialité Génie
+            Logiciel à l'Ecole Polytechnique de Lomé, j'ai obtenu mon BAC2 série
+            C4 en 2021.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Bref</h3>
+            <div class="resume-item pb-0">
+              <h4>AWOMAKOU Amèholé Vivien</h4>
+              <p>
+                <em
+                  >Je suis Développeur Web, spécialisé en Backend. Je suis
+                  passionné par l'intélligence Artificielle et la Cybersécurité
+                  qui constituera mon parcours après ma licence.</em
+                >
+              </p>
+              <ul>
+                <li>Boulevard de la Kara, Lomé - TOGO</li>
+                <li>(228) 79 62 69 98</li>
+                <li>aamehole@gmail.com</li>
+              </ul>
+            </div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Licence professionnelle Génie Logiciel (En cours)</h4>
+              <h5>Depuis novembre 2021</h5>
+              <p><em>Université de Lomé Ecole Polytechnique de Lomé</em></p>
+              <ul>
+                <li>Système d'informations</li>
+                <li>Algorithme</li>
+                <li>Développement web</li>
+                <li>Programmation : C, C++, JAVA</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Développement d'API</h4>
+              <h5>Décembre 2023</h5>
+              <p><em>Larafifteen</em></p>
+              <ul>
+                <li>Les bases de PHP et Laravel</li>
+                <li>Développement et documentation complète d'API</li>
+                <li>TPs pratiques</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Les bases de la gestion de projet</h4>
+              <h5>De novembre 2023 à janvier 2024</h5>
+              <p><em>par Google sur Coursera</em></p>
+              <ul>
+                <li>Rôles et valeurs d'un chef projet</li>
+                <li>Les différents phases d'un projet</li>
+                <li>Quelques méthodologie de gestion de projets</li>
+                <li>
+                  L'impact de la structure organisationnelle d'une entreprise
+                  sur la gestion de projets
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Experience Professionnelle</h3>
+            <div class="resume-item">
+              <h4>Développeur web</h4>
+              <h5>Depuis janvier 2023</h5>
+              <p><em>Social Informatic, Lomé</em></p>
+              <ul>
+                <li>Développement d'une plateforme de location de voitures</li>
+                <li>
+                  Développement de l'api d'une plateforme de gestion de code
+                  sources
+                </li>
+                <li>Gestion de la base de données</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Développeur web</h4>
+              <h5>Depuis octobre 2023</h5>
+              <p><em>ACAN, Lomé</em></p>
+              <ul>
+                <li>
+                  Développement d'un site e-commerce de vente de chaussures
+                </li>
+                <li>Développement d'un site médiatique technologique</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Community manager</h4>
+              <h5>Depuis novembre 2023</h5>
+              <p><em>NIGHT CODING, Lomé</em></p>
+              <ul>
+                <li>Gestion de la page LinkedIn de NIGHT CODING</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Huawei Seed for the future</h4>
+              <h5>Octobre 2023</h5>
+              <p><em>par Huawei En ligne</em></p>
+              <p>Connaissance des bases de l'IA, le cloud computing ...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
 
-</body>
+        <!-- <div class="row">
+          <div
+            class="col-lg-12 d-flex justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div> -->
+
+        <!-- <div
+          class="row portfolio-container"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-1.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-1.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-2.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-2.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Web 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-3.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-3.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-4.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-4.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Card 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-5.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-5.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Web 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-6.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-6.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-7.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-7.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Card 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-8.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-8.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Card 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="images/portfolio/portfolio-9.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/portfolio/portfolio-9.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Web 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="portfolio-details.html"
+                    class="portfolio-details-lightbox"
+                    data-glightbox="type: external"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- Works -->
+    <div class="basic-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="text-container">
+              <div class="image-container">
+                <a href="project.html">
+                  <img
+                    class="img-fluid"
+                    src="images/carloc.png"
+                    alt="alternative"
+                  />
+                </a>
+              </div>
+              <!-- end of image-container -->
+              <p>
+                <strong>Pour :</strong> SOCIAL INFORMATIC,
+                <strong>CARLOC :</strong> est une plateforme de location de voitures
+                <!-- <a class="blue" href="project.html">voir</a> -->
+                <p>Ce projet n'est pas encore en ligne</p>
+              </p>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <!-- end of col -->
+          <div class="col-lg-4">
+            <div class="text-container">
+              <div class="image-container">
+                <a href="project.html">
+                  <img
+                    class="img-fluid"
+                    src="images/cham.png"
+                    alt="alternative"
+                  />
+                </a>
+              </div>
+              <!-- end of image-container -->
+              <p>
+                <strong>Pour :</strong> ACAN,
+                <strong>Cham :</strong> est une plateforme de vente de chaussures
+                <a class="blue" href="https://devviv.github.io/Cham/" target="_blank">voir</a>
+              </p>
+            </div>
+            <!-- end of text-container -->
+          </div>
+          <div class="col-lg-4">
+            <div class="text-container">
+              <div class="image-container">
+                <a href="project.html">
+                  <img
+                    class="img-fluid"
+                    src="images/YouthTrek.png"
+                    alt="alternative"
+                  />
+                </a>
+              </div>
+              <!-- end of image-container -->
+              <p>
+                <strong>YouthTrek :</strong> est une plateforme de sensibilisation de jeune sur l'utilisation de media.
+                <a class="green" href="https://devviv.github.io/YouthTrek/" target="_blank" >voir</a>
+              </p>
+            </div>
+            <!-- end of text-container -->
+          </div>
+        </div>
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-4 -->
+    <!-- end of works -->
+
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Localisation:</h4>
+                <p>Boulevard de la Kara, Lomé - TOGO</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>aamehole@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Téléphone:</h4>
+                <p>+228 79 62 69 98</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <iframe data-tally-src="https://tally.so/embed/w2PGPL?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="324" frameborder="0" marginheight="0" marginwidth="0" title="Mon Portfolio 
+"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <div class="footer bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="social-container">
+              <span class="fa-stack">
+                <a href="https://www.linkedin.com/in/amehole-vivien-awomakou/">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="https://github.com/devviv/">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x"></i>
+                </a>
+              </span>
+              <!-- <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x"></i>
+                </a>
+              </span>
+              <span class="fa-stack">
+                <a href="#your-link">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x"></i>
+                </a>
+              </span> -->
+            </div>
+            <!-- end of social-container -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of footer -->
+    <!-- end of footer -->
+
+    <!-- Copyright -->
+    <div class="copyright bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">
+              Copyright © <a class="no-line" href="#your-link">Amèholé</a>
+            </p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- enf of row -->
+      </div>
+      <!-- end of container -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="p-small">Tous droits réservés</p>
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- enf of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of copyright -->
+    <!-- end of copyright -->
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+
+    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/typed.js/typed.umd.js"></script>
+    <script src="vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
